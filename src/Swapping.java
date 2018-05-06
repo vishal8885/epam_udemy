@@ -12,7 +12,7 @@ public class Swapping {
     public static void main(String args[]){
         int first = 7;
         int second = 19;
-        //write your logic here
+        //write your logic here using third variable
         
         System.out.println("first="+first+" second="+second);
     }
