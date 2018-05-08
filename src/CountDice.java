@@ -13,7 +13,7 @@ import java.util.Random;
  */
 public class CountDice {
     public static void main(String[] args) {
-        Random generator = new Random(); // volt már random?
+        Random generator = new Random(); 
         int die = generator.nextInt(6)+1;
         int count = 0;
         while (die != 6) {
