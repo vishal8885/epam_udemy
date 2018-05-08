@@ -32,12 +32,8 @@ public class FightingTillDeath {
         int yourDamage = sc.nextInt();
         System.out.println("Your Life Points:");
         int yourLife = sc.nextInt();
-        
-        sc.nextLine(); // for emptying the input buffer. Explain input buffer for a little
-        
+        sc.nextLine();  
         Random generator = new Random();
-        
-        // round starts here : do
         do {
             boolean attacker = generator.nextBoolean();
             if (attacker) {
