@@ -33,12 +33,11 @@ public class RunAway {
         System.out.println("Your Life Points:");
         int yourLife = sc.nextInt();
         
-        sc.nextLine(); // for emptying the input buffer. Explain input buffer for a little
+        sc.nextLine(); 
         
         Random generator = new Random();
         boolean runaway = false;
-        
-        // round starts here : do
+       
         do {
             boolean attacker = generator.nextBoolean();
             if (attacker) {
@@ -68,7 +67,6 @@ public class RunAway {
                     System.out.println("Monster's attack was not successful.");
                 }
             }
-            // from this point on
             System.out.println("Please press ENTER! (Or type in 'run' to run away)");
             String command = sc.nextLine();
             switch (command) {
